@@ -3,6 +3,6 @@
         return keys.every(key => key in obj);
     }
     
-    const subject = { name: "Alice", age: 25, email: "alice@example.com" };
-    console.log(validateKeys(subject, ["name", "age"]));
+    const person = { name: "Alice", age: 25, email: "alice@example.com" };
+    console.log(validateKeys(person, ["name", "age"]));
 }
