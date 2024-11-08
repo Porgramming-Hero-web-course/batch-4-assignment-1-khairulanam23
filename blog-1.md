@@ -6,22 +6,6 @@ TypeScript is well-known for its strong type system, which improves the safety a
 
 A **union type** in TypeScript allows a variable to contain data of several kinds. This is useful when a function or variable must interact with many sorts of data.
 
-<!-- **Example:**
-```typescript
-function printId(id: number | string): void {
-    if (typeof id === "string") {
-        console.log(`ID (string): ${id}`);
-    } else {
-        console.log(`ID (number): ${id}`);
-    }
-}
-
-printId(123); // Output: ID (number): 123
-printId("ABC123"); // Output: ID (string): ABC123
-```
-
-In the `printId` function, the `id` parameter can be either a `number` or a `string`. The type guard (`typeof`) helps TypeScript understand what type is being used at runtime, allowing the function to handle both cases safely. -->
-
 #### Why Use Union Types?
 
 - **Flexibility**: They allow you to build functions or variables that can interact with numerous kinds, which improves code reuse.
